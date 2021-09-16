@@ -28,5 +28,4 @@
 <center> <font size="4" color="blue" face="Arial" ><p>Data urodzenia : 04.Maj.2005</p> </center> <br>
 <p algin="left"><font size=10 face=Arial color=black> <sub>H<sub>2<sup>SO<sub>4 </font> </p> <br>
 <p algin="left"><font size=10 face=Arial color=black> <sub>x<sup>*<sub>x=x<sup>2 </font> </p> <br>
-              </body>
-      </html>
+         
