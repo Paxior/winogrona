@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+Teoria:
+a)Uwagi na temat JS
+<p>-kiedy powstala -powstal w 1995 roku</p>
+<p>-dlaczego jest to jezyk skryptowy -JavaScript jest przede wszystkim jezykiem skryptowym  to znaczy interpretowanym. 
+Nie musi zostac skompilowany do kodu maszynowego, aby mozna bylo zobaczyc efekty jego dzialania.</p>
+<p>-gdzie jest wykonywany JS =(klient lub serwer)- JavaScript jest używany najczęściej przy tworzeniu stron www</p>
+<p>-dlaczego jest to bezpieczne narzedzie-Dzieki JavaScriptowi mozna sprawdzic poprawnosc wprowadzonych danych na komputerze klienta, unikajac  przy ewentualnym bledzie</p>
+<p>-czy jest to język obiektowy , jeśli tak to dlaczego -  </p>
+<img src="obraz1.gif" />
+<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+</body>
+</html>
