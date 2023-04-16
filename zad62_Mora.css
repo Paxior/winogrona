@@ -1,14 +1,14 @@
 p
 {
-font-size:20px;
+font-size:18px;
 color:red;
 }
 p:lang(pl)
 {
-font-size:27px;
+font-size:25px;
 color:gold;
 }
 p:lang(en)
 {
-font-size:34px;
+font-size:32px;
 color:yellow;
