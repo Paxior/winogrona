@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Zadanie 82</title>
+<script language="JavaScript">
+function pushbutton() {
+alert("Czesc !");}
+</script>
+</head>
+<body>
+<script language="JavaScript">
+document.write("<font size=100 color=red>Morawiak</font>");
+document.write("<br><font size=10 color=green>Dzis : ","new Date()-> utwórz obiekt o nazwie dziś");
+document.write("<br>Dzis : ","dzis.getHours()-> pobierz godzine z obiektu dziś");
+document.write("<br>Dzis : ","dzis.getMinutes()-> pobierz minute z obiektu dziś");
+document.write("<br>Dzis : ","dzis.getMonth()-> pobierz miesiąc z obiektu dziś");
+document.write("<br>Dzis : ","dzis.getDate()-> pobierz pełna date");
+document.write("<br>Dzis : ","dzis.getFullYear()-> pobierz pełny rok","<br></font>");
+</script>
+Ostatnio zmodyfikowany
+<script language="LiveScript">
+document.write(document.lastModified,"<br>")
+</script>
+<form>
+<input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+</form>
+<script language="JavaScript">
+dzis = new Date();
+document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+document.write("<br>Aktualna data : ",dzis.getMonth()+1,",",dzis.getDate(),",",dzis.getFullYear());
+
+</script>
+</body>
+</html>
