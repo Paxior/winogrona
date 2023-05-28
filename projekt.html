@@ -1,0 +1,110 @@
+<html>
+<head>
+<script type="text/javascript">
+function obliczanie(dane)
+{
+ wynik.innerHTML=" ";
+ cena_koncowa=0;
+if (dane.pom.checked == true)
+ {
+ cena_koncowa=15+cena_koncowa;
+ }
+if (dane.ogo.checked == true)
+ {
+ cena_koncowa=15+cena_koncowa;
+ }
+if (dane.ros.checked == true)
+ {
+ cena_koncowa=10+cena_koncowa;
+ }
+if (dane.spa.checked == true)
+ {
+ cena_koncowa=20+cena_koncowa;
+ }
+if (dane.mie.checked == true)
+ {
+ cena_koncowa=25+cena_koncowa;
+ }
+if (dane.sch.checked == true)
+ {
+ cena_koncowa=25+cena_koncowa;
+ }
+if (dane.gal.checked == true)
+ {
+ cena_koncowa=5+cena_koncowa;
+ }
+if (dane.luk.checked == true)
+ {
+ cena_koncowa=10+cena_koncowa;
+ }
+if (dane.wod.checked == true)
+ {
+ cena_koncowa=10+cena_koncowa;
+ }
+if (dane.lem.checked == true)
+ {
+ cena_koncowa=15+cena_koncowa;
+ }
+if (dane.sok.checked == true)
+ {
+ cena_koncowa=20+cena_koncowa;
+ }
+if (dane.her.checked == true)
+ {
+ cena_koncowa=30+cena_koncowa;
+ }
+if (dane.her.checked == true)
+ {
+ cena_koncowa=30+cena_koncowa;
+ }
+ wynik.innerHTML="do zapłaty "+cena_koncowa.toFixed(2)+" zł";
+
+
+ }
+</script>
+</head>
+<body bgcolor="pink">
+<form name="formularz">
+<b>Dane klienta:</b><br>
+Imie<input type="text" name="imi"/><br><br>
+Nazwisko<input type="text" name="naz"/><br><br>
+Adres zamieszkania<input type="text" name="adr"/><br><br>
+Numer telefonu<input type="text" name="tel"/><br><br>
+<b>Adres zamieszkania:</b><br>
+Ulica<input type="text" name="uli"/><br><br>
+Numer domu<input type="text" name="num"/><br><br>
+Miasto<input type="text" name="mia"/><br><br>
+<b>Menu:</b><br>
+<b>ZUPY:</b><br>
+Pomidorowa-15zł<input type="checkbox" name="pom" value=15 /><br><br>
+Ogórkowa-15zł<input type="checkbox" name="ogo" value=15 /><br><br>
+Rosół-10zł<input type="checkbox" name="ros" value=10 /><br><br>
+<b>DRUGIE DANIA:</b><br>
+Spaghetti-20zł<input type="checkbox" name="spa" value=20 /><br><br>
+Kotlet mielony-25zł<input type="checkbox" name="mie" value=25 /><br><br>
+Kotlet schabowy-25zł<input type="checkbox" name="sch" value=25 /><br><br>
+<b>DESERY:</b><br>
+Galaretka owocow-5zł<input type="checkbox" name="gal" value=5 /><br><br>
+Lukrecja-10zł<input type="checkbox" name="luk" value=10 /><br><br>
+<b>NAPOJE:</b><br>
+Woda-10zł<input type="checkbox" name="wod" value=10 /><br><br>
+Lemoniada-15zł<input type="checkbox" name="lem" value=20 /><br><br>
+Sok jabłkowy-20zł<input type="checkbox" name="sok" value=20 /><br><br>
+Herbata-30zł<input type="checkbox" name="her" value=30 /><br><br>
+<b>Podaj VAT:</b><br>
+Wielkość porcji<select name="vat"/>
+<option value="0"> 0%
+</select><br><br>
+<b>Podaj opcje dodatkowe:</b><br>
+ubezpieczenie zakup &nbsp&nbsp&nbsp15%<input type="checkbox" name="ubezpieczenie" value=0
+/><br>
+94
+przedłużona gwarancja 28%<input type="checkbox" name="gwarancja" value=0 /><br><br>
+<!-- <input type="button" value="Oblicz....." onClick="obliczanie(this.form)"/><br><br> -->
+<input type="button" value="Oblicz....." onClick="obliczanie(this.form)"/><br><br>
+</form>
+<table>
+<tr id="wynik"></tr>
+</table>
+</body>
+</html>
